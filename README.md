@@ -19,6 +19,7 @@ The [Kaggle Dataset](<https://www.kaggle.com/datasets/sbhatti/financial-sentimen
     - A. Text Blob: The initial phase of model development commenced with the implementation of a rule-based approach utilizing Text Blob. This rudimentary model served as a foundational reference point to assess sentiment analysis on financial textual data.
     
     - B. Machine Learning Models with TF-IDF
+         
          Multinomial Naive Bayes: Multinomial Naive Bayes, in conjunction with TF-IDF vectorization, was harnessed to categorize financial sentences into sentiment categories. The performance of this model was methodically evaluated to ascertain its suitability for sentiment analysis in the financial domain.
          
          Random Forest: The project also explored the utility of Random Forest, a prominent ensemble learning algorithm, in tandem with TF-IDF vectorization. This exploration sought to discern the predictive potential of ensemble models in the context of sentiment analysis for financial text data.
