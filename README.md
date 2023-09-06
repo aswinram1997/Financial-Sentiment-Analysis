@@ -18,7 +18,7 @@ The [Kaggle Dataset](<https://www.kaggle.com/datasets/sbhatti/financial-sentimen
 - Text Preprocessing and Model Training
     - A. Text Blob
     
-    The initial phase of model development commenced with the implementation of a rule-based approach utilizing Text Blob. This rudimentary model served as a foundational reference point to assess sentiment analysis on financial textual data.
+        The initial phase of model development commenced with the implementation of a rule-based approach utilizing Text Blob. This rudimentary model served as a foundational reference point to assess sentiment analysis on financial textual data.
     
     - B. Machine Learning Models with TF-IDF
          
@@ -28,7 +28,7 @@ The [Kaggle Dataset](<https://www.kaggle.com/datasets/sbhatti/financial-sentimen
 
     - C. Long-short term memory (LSTM) with Word2Vec
     
-    Venturing into the domain of deep learning, the research culminated in the development of an LSTM (Long Short-Term Memory) model, a type of recurrent neural network (RNN). This model was constructed using Word2Vec embeddings, thereby imbuing it with the capacity to grasp nuanced semantic nuances. The deployment of deep learning techniques aimed to elevate the accuracy and context-awareness of the sentiment analysis process in the financial domain.
+        Venturing into the domain of deep learning, the research culminated in the development of an LSTM (Long Short-Term Memory) model, a type of recurrent neural network (RNN). This model was constructed using Word2Vec embeddings, thereby imbuing it with the capacity to grasp nuanced semantic nuances. The deployment of deep learning techniques aimed to elevate the accuracy and context-awareness of the sentiment analysis process in the financial domain.
 
 ## Results
 In this sentiment analysis project, we experimented with four models: Text Blob (baseline model), Multinomial Naive Bayes with TF-IDF, Random Forest with TF-IDF, and LSTM with Word2Vec. Although Multinomial Naive Bayes was more accurate, we favored the Random Forest, which, while a bit less accurate, generalized better. Additionally, the LSTM model, despite being deep learning, only did better than Text Blob, not surpassing Multinomial Naive Bayes or Random Forest. This suggests that deep learning models always doesn't guarantee superior results. In conclusion, Random Forest's strong generalizability makes it the top choice for sentiment prediction. After rigorous experimentation and fine-tuning, the winning model's performance remains satisfactory; thus, future work should focus on collecting a more extensive and diverse dataset for financial market sentiment analysis to bolster model robustness and explore its performance in broader data contexts.
