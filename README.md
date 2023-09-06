@@ -1,10 +1,12 @@
 # Financial-Sentiment-Analysis
 
+![chris-liverani-NDfqqq_7QWM-unsplash](https://github.com/aswinram1997/Financial-Sentiment-Analysis/assets/102771069/cef474d3-bf3d-4e0f-accf-47b898fe1a60)
+
 ## Project Overview
 In today's data-driven financial landscape, the development of a Financial Sentiment Analysis Model is of paramount importance. This model harnesses natural language processing and machine learning techniques to systematically evaluate sentiment in financial data, offering invaluable insights for investment decisions, risk management, and market forecasting. By quantifying sentiments expressed in various financial sources, this model not only addresses the growing demand for sophisticated data analysis tools but also paves the way for innovative applications that can enhance decision-making processes across the financial industry, promising a more informed and competitive future. Therefore, this project's objective is to develop a Financial Sentiment Analysis Model that can predict the sentiment of financial markets and assets accurately, enabling investors, traders, and financial professionals to make more informed decisions and navigate the complexities of the ever-evolving financial landscape with greater confidence.
 
 ## Dataset Overview
-The [Kaggle Dataset](<https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis>) consists of 5836 rows and 2 columns (Sentence, Sentiment). 
+The [Kaggle Dataset](<https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis>) consists of 5836 rows and 2 columns (Sentence, Sentiment). The "Sentence" column contains short text data related to the financial market. The "Sentiment" column provides labels indicating the sentiment expressed in each sentence, which can be categorized as positive, negative, or neutral sentiments, making it a valuable resource for sentiment analysis in the context of financial markets.
 
 ## Methodology
 - Data Collection: Gathered data from the provided Kaggle dataset, which includes financial sentences labeled with sentiment. This dataset was curated with sentiment labels, thereby constituting a foundational corpus for sentiment analysis.
