@@ -10,13 +10,19 @@ The [Kaggle Dataset](<https://www.kaggle.com/datasets/sbhatti/financial-sentimen
 
 ## Methodology
 - Data Collection: Gathered data from the provided Kaggle dataset, which includes financial sentences labeled with sentiment. This dataset was curated with sentiment labels, thereby constituting a foundational corpus for sentiment analysis.
+
 - Data Splitting: Split the dataset into training and testing sets to assess model performance.
+
 - Exploratory Data Analysis: Conducted exploratory data analysis to gain insights into the dataset's characteristics, distribution of sentiments, and potential patterns.
+
 - Text Preprocessing and Model Training
     - A. Text Blob: The initial phase of model development commenced with the implementation of a rule-based approach utilizing Text Blob. This rudimentary model served as a foundational reference point to assess sentiment analysis on financial textual data.
+    
     - B. Machine Learning Models with TF-IDF
-        - Multinomial Naive Bayes: Multinomial Naive Bayes, in conjunction with TF-IDF vectorization, was harnessed to categorize financial sentences into sentiment categories. The performance of this model was methodically evaluated to ascertain its suitability for sentiment analysis in the financial domain.
-        - Random Forest: The project also explored the utility of Random Forest, a prominent ensemble learning algorithm, in tandem with TF-IDF vectorization. This exploration sought to discern the predictive potential of ensemble models in the context of sentiment analysis for financial text data.
+         Multinomial Naive Bayes: Multinomial Naive Bayes, in conjunction with TF-IDF vectorization, was harnessed to categorize financial sentences into sentiment categories. The performance of this model was methodically evaluated to ascertain its suitability for sentiment analysis in the financial domain.
+         
+         Random Forest: The project also explored the utility of Random Forest, a prominent ensemble learning algorithm, in tandem with TF-IDF vectorization. This exploration sought to discern the predictive potential of ensemble models in the context of sentiment analysis for financial text data.
+
     - C. Long-short term memory (LSTM) with Word2Vec: Venturing into the domain of deep learning, the research culminated in the development of an LSTM (Long Short-Term Memory) model, a type of recurrent neural network (RNN). This model was constructed using Word2Vec embeddings, thereby imbuing it with the capacity to grasp nuanced semantic nuances. The deployment of deep learning techniques aimed to elevate the accuracy and context-awareness of the sentiment analysis process in the financial domain.
 
 ## Results
