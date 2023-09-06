@@ -1,6 +1,6 @@
 # Financial-Sentiment-Analysis
 
-![chris-liverani-NDfqqq_7QWM-unsplash](https://github.com/aswinram1997/Financial-Sentiment-Analysis/assets/102771069/681d1fc0-96d0-4e4f-9b74-71cea144d015)
+![pexels-tima-miroshnichenko-7567440](https://github.com/aswinram1997/Financial-Sentiment-Analysis/assets/102771069/7bf23dd1-acdf-4fc5-8324-3876ae7dd7c1)
 
 ## Project Overview
 In today's data-driven financial landscape, the development of a Financial Sentiment Analysis Model is of paramount importance. This model harnesses Natural Language Processing (NLP) and Machine Learning techniques to systematically evaluate sentiment in financial data, offering invaluable insights for investment decisions, risk management, and market forecasting. By quantifying sentiments expressed in various financial sources, this model not only addresses the growing demand for sophisticated data analysis tools but also paves the way for innovative applications that can enhance decision-making processes across the financial industry, promising a more informed and competitive future. Therefore, this project's objective is to develop a Financial Sentiment Analysis Model that can predict the sentiment of financial markets and assets accurately, enabling investors, traders, and financial professionals to make more informed decisions and navigate the complexities of the ever-evolving financial landscape with greater confidence.
